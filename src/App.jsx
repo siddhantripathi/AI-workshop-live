@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const WEBHOOK_URL = 'https://tripps.app.n8n.cloud/webhook-test/youtube-aggregator'
+const WEBHOOK_URL = 'https://tripps.app.n8n.cloud/webhook/youtube-aggregator'
 
 // --- Sub-components ---
 
