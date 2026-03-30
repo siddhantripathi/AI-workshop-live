@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
-const WEBHOOK_URL = 'https://tripps.app.n8n.cloud/webhook/youtube-aggregator'
+// Calls our own serverless proxy (/api/analyze) to avoid CORS restrictions.
+// The proxy forwards the request to n8n server-to-server.
+const WEBHOOK_URL = '/api/analyze'
 
 // --- Sub-components ---
 
